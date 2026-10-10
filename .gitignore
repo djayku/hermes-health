@@ -1,0 +1,13 @@
+# Runtime data — never commit health records
+db/
+raw/
+logs/
+*.db
+*.sqlite
+__pycache__/
+*.pyc
+
+# Secrets — keep out of git even though keychain holds them
+.env
+*.key
+*.pem
